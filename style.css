@@ -1,0 +1,793 @@
+:root {
+  --background-color: #fffef1;
+  --text-color: #000000;
+  --orange-text: rgb(240, 104, 0);
+}
+
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  max-width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background-color);
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Header section */
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  position: relative; /* supaya pixel stay di hero */
+  overflow: hidden;
+}
+
+/* Pixel Particles */
+.pixel {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: var(--orange-text);
+  opacity: 0.5;
+  border-radius: 2px;
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Animasi melayang */
+@keyframes float {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(-30px) scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.6;
+  }
+}
+
+.section-header .right h1 {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.section-header .right h1 .orange {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--orange-text);
+}
+
+.section-hero .text {
+  padding-top: 150px;
+}
+
+.nav-text ul {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-text ul li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.nav-text ul li a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--text-color);
+  transition: transform 0.5s ease, color 0.5s ease;
+}
+
+.nav-text ul li a:hover {
+  color: var(--orange-text);
+  transform: translateY(5px);
+}
+
+/* Hero section */
+
+.section-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  gap: 5.5rem;
+}
+
+.section-hero .text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.section-hero .text h2 {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  margin-top: -250px;
+  margin-bottom: 0;
+}
+
+.section-hero .text h2 .BTitle1 {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  margin-top: -250px;
+  margin-bottom: 0;
+}
+
+.section-hero .text h2 .BTitle2 {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  margin-top: -250px;
+  margin-bottom: 0;
+}
+
+.firstP {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Section1: Orange */
+
+.section-hero .text h2 .orange {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  color: var(--orange-text);
+  display: inline-block;
+  transition: transform 1s ease;
+}
+
+.section-hero .text h2 .orange:hover {
+  transform: translateY(10px);
+}
+
+.text h2 .orange2 {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  color: var(--orange-text);
+  display: inline-block;
+  transition: transform 1s ease;
+}
+
+.text h2 .orange2:hover {
+  transform: translateY(-10px);
+}
+
+.text h2 .orange3 {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  color: var(--orange-text);
+  display: inline-block;
+  transition: transform 1s ease;
+}
+
+.text h2 .orange3:hover {
+  transform: translateY(10px);
+}
+
+.text h2 .orange4 {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  color: var(--orange-text);
+  display: inline-block;
+  transition: transform 1s ease;
+}
+
+.text h2 .orange4:hover {
+  transform: translateY(-10px);
+}
+
+.text h2 .orange5 {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  color: var(--orange-text);
+  display: inline-block;
+  transition: transform 1s ease;
+}
+
+.text h2 .orange5:hover {
+  transform: translateY(-10px);
+}
+
+.text h2 .orange6 {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  color: var(--orange-text);
+  display: inline-block;
+  transition: transform 1s ease;
+}
+
+.text h2 .orange6:hover {
+  transform: translateY(-10px);
+}
+
+/* ------------------------------------ */
+
+.text h2 .orange2V {
+  display: inline-block;
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  color: var(--orange-text);
+  transition: transform 1s ease;
+}
+
+.text h2 .orange2V:hover {
+  transform: scale(2);
+}
+
+.section-h2 p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: small;
+}
+
+.text p {
+  color: rgb(61, 61, 61);
+}
+
+.image img {
+  border-radius: 0%;
+  width: 450px;
+  transition: transform 0.5s ease;
+}
+
+.image img:hover {
+  transform: scale(1.1);
+}
+
+/* Section1: Button */
+
+.button {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1.5rem;
+  padding-top: 10px;
+}
+
+/* Section1: arrow animation */
+
+.left button {
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  background-color: var(--orange-text);
+  border-radius: 4px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  overflow: hidden;
+  transition: transform 1s ease;
+  transform-origin: left center;
+}
+
+.arrow {
+  display: inline-flex;
+  opacity: 0;
+  transform: translateX(-5px);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.left button:hover {
+  gap: 8px;
+  transform: scaleX(1.02);
+}
+
+.left button:hover .arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* ---------------------------------- */
+
+.right button {
+  border: 1px solid rgb(41, 41, 41);
+  font-size: 15px;
+  color: rgb(41, 41, 41);
+  background-color: var(--background-color);
+  border-radius: 4px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* ---- END OF EXPLANATION SECTION ---- */
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.My p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.icon-media {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-right: 200px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/* Icon Social Media Animation */
+
+.icon-media a {
+  color: black;
+  font-size: larger;
+  transition: 0.5s ease;
+}
+
+.icon-media a:hover {
+  color: var(--orange-text);
+  transform: scale(1.3);
+}
+
+/* ================== Section Skills ================== */
+/* Section Skills */
+.section-skills {
+  padding: 60px 50px;
+  text-align: center;
+  background-color: var(--orange-text);
+}
+
+/* Title atas */
+.section-skills h2 {
+  font-family: "Jersey 10", sans-serif;
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+/* Card utama */
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.skill {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 30px 20px;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  max-width: 300px;
+  text-align: center;
+}
+
+.skill:hover {
+  transform: translateY(-8px);
+}
+
+.skill .icon-wrapper img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 15px;
+  image-rendering: pixelated;
+}
+
+.skill h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--orange-text);
+}
+
+.skill p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Code Skills Section */
+.code-skills h2 {
+  font-family: "Jersey 10", sans-serif;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: white;
+  text-align: center;
+}
+
+/* Container */
+.code-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Animasi muncul */
+/* Card Animation */
+.code-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 12px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 10px var(--orange-text);
+
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 0.8s ease forwards;
+}
+
+/* Delay setiap card biar muncul bergantian */
+.code-card:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.code-card:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.code-card:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.code-card:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+/* Card fade in + slide up */
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Icon */
+.code-card img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 10px;
+  image-rendering: pixelated;
+}
+
+.code-card span {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Progress Bar */
+.progress {
+  background: #eee;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Animasi pengisian progress bar */
+.progress-bar {
+  height: 100%;
+  background: var(--orange-text);
+  border-radius: 5px;
+  width: 0; /* start from 0 */
+  animation: fillBar 2s ease forwards;
+}
+
+@keyframes fillBar {
+  to {
+    width: var(--progress, 80%); /* pakai custom property */
+  }
+}
+
+/* ================== Section Projects ================== */
+.section-projects {
+  padding: 80px 10%;
+  background: var(--background-color);
+  color: white;
+  text-align: center;
+}
+
+.section-projects h2 {
+  font-family: "Jersey 10", sans-serif;
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: var(--orange-text);
+}
+
+/* Container */
+.project-container {
+  display: flex;
+  justify-content: center; /* rata tengah */
+  gap: 30px;
+  flex-wrap: nowrap; /* jangan turun ke bawah */
+  overflow-x: auto; /* kalau kebanyakan, bisa discroll horizontal */
+  padding-bottom: 10px; /* kasih ruang biar scroll nggak nempel */
+}
+
+/* Project Card */
+.project-card {
+  background: #fff;
+  color: #333;
+  border-radius: 12px;
+  width: 280px;
+  text-align: left;
+  padding: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 0.8s ease forwards;
+}
+
+/* Delay animasi tiap card */
+.project-card:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.project-card:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.project-card:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.project-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.project-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+/* Button */
+.btn-project {
+  display: inline-block;
+  padding: 8px 16px;
+  background: var(--orange-text);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-project:hover {
+  background: #ff6a00;
+}
+
+/* Reuse fadeUp animasi */
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ================== Section Contact ================== */
+.section-contact {
+  padding: 80px 10%;
+  background: var(--background-color);
+}
+
+.section-contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.section-contact .contact-desc {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* kiri form lebih lebar */
+  gap: 40px;
+  align-items: start;
+}
+
+/* ================== Form ================== */
+.contact-form-container {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 90%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #ff6600;
+  box-shadow: 0 0 8px rgba(255, 102, 0, 0.2);
+}
+
+.btn-submit {
+  width: 97%;
+  padding: 12px;
+  background: #ff6600;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-submit:hover {
+  background: #e05500;
+}
+
+/* ================== Contact Info ================== */
+.contact-info {
+  text-align: left;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.contact-info h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.quick-links {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.quick-links li {
+  margin: 8px 0;
+}
+
+.quick-links a {
+  text-decoration: none;
+  color: #555;
+  transition: 0.3s;
+}
+
+.quick-links a:hover {
+  color: #ff6600;
+}
+
+/* ================== Social Icons ================== */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  color: #555;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff6600;
+}
+
+/* ================== Contact Info Text ================== */
+.contact-info p {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #444;
+}
+
+.contact-info i {
+  margin-right: 8px;
+  color: #ff6600;
+}
+
+/* ================== Responsive ================== */
+@media (max-width: 900px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Custom Cursor */
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  background: var(--orange-text);
+  border: 2px solid black;
+  image-rendering: pixelated; /* biar kesan retro */
+  pointer-events: none; /* supaya tidak ganggu klik */
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: transform 0.08s ease-out;
+  border-radius: 2px; /* kotak pixel */
+}
+
+/* Cursor keyboard pixel (input / textarea aktif) */
+.custom-cursor.text {
+  width: 4px;
+  height: 18px;
+  background: black;
+  animation: blink 1s infinite step-start;
+}
+
+@keyframes blink {
+  50% {
+    background: transparent;
+  }
+}
